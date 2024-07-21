@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang cá nhân của bạn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #main {
+            padding: 20px;
+        }
+        #about, #projects, #contact {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .project {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #fafafa;
+        }
+        .personal-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .project-photo {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Trang cá nhân của bạn</h1>
+</header>
+
+<nav>
+    <a href="#about">Giới thiệu</a>
+    <a href="#projects">Dự án</a>
+    <a href="#contact">Liên hệ</a>
+</nav>
+
+<div class="container">
+    <section id="main">
+        <article id="about">
+            <h2>Giới thiệu</h2>
+            <img src="personal_photo.jpg" alt="Ảnh cá nhân của bạn" class="personal-photo">
+            <p>Chào bạn! Tôi là [ Nhớ ], một lập trình viên đam mê công nghệ. Tôi có kinh nghiệm làm việc với Arduino, ESP32, PIC và các dự án tự động hóa. Trang web này là nơi tôi chia sẻ các dự án của mình và cung cấp thông tin liên lạc.</p>
+        </article>
+
+        <article id="projects">
+            <h2>Dự án</h2>
+            <div class="project">
+                <h3>Dự án 1: Tên dự án</h3>
+                <img src="project1_photo.jpg" alt="Ảnh dự án 1" class="project-photo">
+                <p>Mô tả ngắn gọn về dự án. Ví dụ: Dự án này sử dụng esp32 để điều khiển đèn LED thông qua web server.</p>
+                <a href="link_to_project">Chi tiết dự án</a>
+            </div>
+            <div class="project">
+                <h3>Dự án 2: Tên dự án</h3>
+                <img src="project2_photo.jpg" alt="Ảnh dự án 2" class="project-photo">
+                <p>Mô tả ngắn gọn về dự án. Ví dụ: Dự án này sử dụng ESP32 để giám sát và điều khiển hệ thống cảm biến.</p>
+                <a href="link_to_project">Chi tiết dự án</a>
+            </div>
+            <!-- Thêm các dự án khác ở đây -->
+        </article>
+
+        <article id="contact">
+            <h2>Liên hệ</h2>
+            <p>Bạn có thể liên hệ với tôi qua email: <a href="mailto:buihongnho21082k3@gmail.com">buihongnho21082k3@gmail.com</a></p>
+        </article>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Trang cá nhân của bạn. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
